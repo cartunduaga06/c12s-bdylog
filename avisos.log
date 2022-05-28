@@ -1,0 +1,70 @@
+[2022-05-2718:43:00] [ INFO ] [Main:17] Driver h2 cargado
+[2022-05-2718:43:00] [ ERROR] [Main:35] error de conexion: org.h2.jdbc.JdbcSQLNonTransientConnectionException: A file path that is implicitly relative to the current working directory is not allowed in the database URL "jdbc:h2:~db_usuarios". Use an absolute path, ~/name, ./name, or the baseDir setting instead. [90011-212]
+[2022-05-2718:49:17] [ INFO ] [Main:17] Driver h2 cargado
+[2022-05-2718:49:18] [ ERROR] [Main:46] error de conexion: org.h2.jdbc.JdbcSQLNonTransientConnectionException: A file path that is implicitly relative to the current working directory is not allowed in the database URL "jdbc:h2:~db_usuarios". Use an absolute path, ~/name, ./name, or the baseDir setting instead. [90011-212]
+[2022-05-2718:53:08] [ INFO ] [Main:17] Driver h2 cargado
+[2022-05-2718:53:08] [ ERROR] [Main:46] error de conexion: org.h2.jdbc.JdbcSQLNonTransientConnectionException: A file path that is implicitly relative to the current working directory is not allowed in the database URL "jdbc:h2:~db_usuarios". Use an absolute path, ~/name, ./name, or the baseDir setting instead. [90011-212]
+[2022-05-2718:54:27] [ INFO ] [Main:17] Driver h2 cargado
+[2022-05-2718:54:28] [ INFO ] [Main:22] conexion establecida
+[2022-05-2718:55:06] [ INFO ] [Main:17] Driver h2 cargado
+[2022-05-2718:55:06] [ INFO ] [Main:22] conexion establecida
+[2022-05-2718:55:06] [ INFO ] [Main:28] Tabla creada
+[2022-05-2719:14:15] [ INFO ] [Main:17] Driver h2 cargado
+[2022-05-2719:14:15] [ ERROR] [Main:57] error de conexion: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-212]
+[2022-05-2719:27:30] [ INFO ] [Main:17] Driver h2 cargado
+[2022-05-2719:27:31] [ INFO ] [Main:22] conexion establecida
+[2022-05-2719:27:31] [ INFO ] [Main:28] Tabla creada
+[2022-05-2719:27:31] [ ERROR] [Main:64] error de conexion: org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO usuarios([*]1,carlos, artunduaga, 40); "; expected "identifier"; SQL statement:
+INSERT INTO usuarios(1,carlos, artunduaga, 40);  [42001-212]
+[2022-05-2719:29:33] [ INFO ] [Main:17] Driver h2 cargado
+[2022-05-2719:29:34] [ INFO ] [Main:22] conexion establecida
+[2022-05-2719:29:34] [ INFO ] [Main:28] Tabla creada
+[2022-05-2719:29:34] [ ERROR] [Main:64] error de conexion: org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO usuarios([*]1,carlos, artunduaga, 40); "; expected "identifier"; SQL statement:
+INSERT INTO usuarios(1,carlos, artunduaga, 40);  [42001-212]
+[2022-05-2719:30:17] [ INFO ] [Main:17] Driver h2 cargado
+[2022-05-2719:30:17] [ INFO ] [Main:22] conexion establecida
+[2022-05-2719:30:17] [ INFO ] [Main:28] Tabla creada
+[2022-05-2719:30:17] [ ERROR] [Main:64] error de conexion: org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO usuarios([*]1,carlos, artunduaga, 40); "; expected "identifier"; SQL statement:
+INSERT INTO usuarios(1,carlos, artunduaga, 40);  [42001-212]
+[2022-05-2719:30:38] [ INFO ] [Main:17] Driver h2 cargado
+[2022-05-2719:30:39] [ INFO ] [Main:22] conexion establecida
+[2022-05-2719:30:39] [ INFO ] [Main:28] Tabla creada
+[2022-05-2719:30:39] [ ERROR] [Main:64] error de conexion: org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO usuarios([*]1,carlos, artunduaga, 40); "; expected "identifier"; SQL statement:
+INSERT INTO usuarios(1,carlos, artunduaga, 40);  [42001-212]
+[2022-05-2719:36:05] [ INFO ] [Main:17] Driver h2 cargado
+[2022-05-2719:36:05] [ INFO ] [Main:22] conexion establecida
+[2022-05-2719:36:05] [ INFO ] [Main:28] Tabla creada
+[2022-05-2719:36:05] [ ERROR] [Main:64] error de conexion: org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "CARLOS" not found; SQL statement:
+INSERT INTO usuarios(id, primer_nombre, apellido, edad) VALUES (1,carlos, artunduaga, 40);  [42122-212]
+[2022-05-2719:36:26] [ INFO ] [Main:17] Driver h2 cargado
+[2022-05-2719:36:26] [ INFO ] [Main:22] conexion establecida
+[2022-05-2719:36:26] [ INFO ] [Main:28] Tabla creada
+[2022-05-2719:36:26] [ ERROR] [Main:64] error de conexion: org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "CARLOS" not found; SQL statement:
+INSERT INTO usuarios(id, primer_nombre, apellido, edad) VALUES (1,carlos, artunduaga, 40);  [42122-212]
+[2022-05-2719:37:31] [ INFO ] [Main:17] Driver h2 cargado
+[2022-05-2719:37:32] [ INFO ] [Main:22] conexion establecida
+[2022-05-2719:37:32] [ INFO ] [Main:28] Tabla creada
+[2022-05-2719:37:32] [ INFO ] [Main:37] se insertaron todas las filas
+[2022-05-2719:37:32] [ ERROR] [Main:64] error de conexion: org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "NOMBRE" not found; SQL statement:
+UPDATE usuarios SET nombre =  'Carlos Artunduaga'  WHERE id=1 [42122-212]
+[2022-05-2719:38:03] [ INFO ] [Main:17] Driver h2 cargado
+[2022-05-2719:38:03] [ INFO ] [Main:22] conexion establecida
+[2022-05-2719:38:03] [ INFO ] [Main:28] Tabla creada
+[2022-05-2719:38:03] [ INFO ] [Main:37] se insertaron todas las filas
+[2022-05-2719:38:22] [ INFO ] [Main:17] Driver h2 cargado
+[2022-05-2719:38:22] [ INFO ] [Main:22] conexion establecida
+[2022-05-2719:38:22] [ INFO ] [Main:28] Tabla creada
+[2022-05-2719:38:22] [ INFO ] [Main:37] se insertaron todas las filas
+[2022-05-2719:38:22] [ INFO ] [Main:55] update a usuarios
+[2022-05-2719:49:29] [ INFO ] [Main:14] Driver h2 cargado
+[2022-05-2719:49:30] [ INFO ] [Main:19] conexion establecida
+[2022-05-2719:49:30] [ INFO ] [Main:25] Tabla creada
+[2022-05-2719:49:30] [ INFO ] [Main:34] se insertaron todas las filas
+[2022-05-2719:49:30] [ INFO ] [Main:42] consulta realizada con exito
+[2022-05-2719:49:30] [ INFO ] [Main:57] update a usuarios
+[2022-05-2719:51:06] [ INFO ] [Main:14] Driver h2 cargado
+[2022-05-2719:51:06] [ INFO ] [Main:19] conexion establecida
+[2022-05-2719:51:06] [ INFO ] [Main:25] Tabla creada
+[2022-05-2719:51:06] [ INFO ] [Main:34] se insertaron todas las filas
+[2022-05-2719:51:06] [ INFO ] [Main:42] consulta realizada con exito
+[2022-05-2719:51:06] [ INFO ] [Main:57] update a usuarios
