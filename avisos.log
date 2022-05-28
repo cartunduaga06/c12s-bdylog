@@ -68,3 +68,67 @@ UPDATE usuarios SET nombre =  'Carlos Artunduaga'  WHERE id=1 [42122-212]
 [2022-05-2719:51:06] [ INFO ] [Main:34] se insertaron todas las filas
 [2022-05-2719:51:06] [ INFO ] [Main:42] consulta realizada con exito
 [2022-05-2719:51:06] [ INFO ] [Main:57] update a usuarios
+[2022-05-2723:16:02] [ INFO ] [Main:14] Driver h2 cargado
+[2022-05-2723:16:03] [ INFO ] [Main:19] conexion establecida
+[2022-05-2723:16:03] [ INFO ] [Main:25] Tabla creada
+[2022-05-2723:16:03] [ INFO ] [Main:34] se insertaron todas las filas
+[2022-05-2723:16:03] [ INFO ] [Main:42] consulta realizada con exito
+[2022-05-2723:16:03] [ INFO ] [Main:57] update a usuarios
+[2022-05-2723:17:40] [ INFO ] [Main:14] Driver h2 cargado
+[2022-05-2723:17:40] [ INFO ] [Main:19] conexion establecida
+[2022-05-2723:17:40] [ INFO ] [Main:25] Tabla creada
+[2022-05-2723:17:40] [ INFO ] [Main:34] se insertaron todas las filas
+[2022-05-2723:17:40] [ INFO ] [Main:42] consulta realizada con exito
+[2022-05-2723:17:40] [ INFO ] [Main:50] borrado id = 2
+[2022-05-2723:17:40] [ ERROR] [Main:73] error de SQL: org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-212]
+[2022-05-2723:18:16] [ INFO ] [Main:14] Driver h2 cargado
+[2022-05-2723:18:16] [ INFO ] [Main:19] conexion establecida
+[2022-05-2723:18:16] [ INFO ] [Main:25] Tabla creada
+[2022-05-2723:18:16] [ INFO ] [Main:34] se insertaron todas las filas
+[2022-05-2723:18:16] [ INFO ] [Main:42] consulta realizada con exito
+[2022-05-2723:18:16] [ INFO ] [Main:50] borrado id = 2
+[2022-05-2723:18:16] [ ERROR] [Main:73] error de SQL: org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-212]
+[2022-05-2723:18:40] [ INFO ] [Main:14] Driver h2 cargado
+[2022-05-2723:18:41] [ INFO ] [Main:19] conexion establecida
+[2022-05-2723:18:41] [ INFO ] [Main:25] Tabla creada
+[2022-05-2723:18:41] [ INFO ] [Main:34] se insertaron todas las filas
+[2022-05-2723:18:41] [ INFO ] [Main:42] consulta realizada con exito
+[2022-05-2723:18:41] [ INFO ] [Main:50] borrado id = 2
+[2022-05-2723:18:41] [ INFO ] [Main:58] consulta 2 realizada con exito
+[2022-05-2723:18:41] [ INFO ] [Main:63] update a usuarios
+[2022-05-2723:19:32] [ INFO ] [Main:14] Driver h2 cargado
+[2022-05-2723:19:32] [ INFO ] [Main:19] conexion establecida
+[2022-05-2723:19:32] [ INFO ] [Main:25] Tabla creada
+[2022-05-2723:19:32] [ INFO ] [Main:34] se insertaron todas las filas
+[2022-05-2723:19:32] [ INFO ] [Main:42] consulta realizada con exito
+[2022-05-2723:19:32] [ INFO ] [Main:50] borrado id = 2
+[2022-05-2723:19:32] [ INFO ] [Main:58] consulta 2 realizada con exito
+[2022-05-2723:19:32] [ INFO ] [Main:63] update a usuarios
+[2022-05-2723:19:32] [ INFO ] [Main:73] consulta 2 realizada con exito
+[2022-05-2723:19:40] [ INFO ] [Main:14] Driver h2 cargado
+[2022-05-2723:19:40] [ INFO ] [Main:19] conexion establecida
+[2022-05-2723:19:40] [ INFO ] [Main:25] Tabla creada
+[2022-05-2723:19:40] [ INFO ] [Main:34] se insertaron todas las filas
+[2022-05-2723:19:40] [ INFO ] [Main:42] consulta realizada con exito
+[2022-05-2723:19:40] [ INFO ] [Main:50] borrado id = 2
+[2022-05-2723:19:40] [ INFO ] [Main:58] consulta 2 realizada con exito
+[2022-05-2723:19:40] [ INFO ] [Main:63] update a usuarios
+[2022-05-2723:19:40] [ INFO ] [Main:73] consulta 3 realizada con exito
+[2022-05-2723:20:50] [ INFO ] [Main:14] Driver h2 cargado
+[2022-05-2723:20:50] [ INFO ] [Main:19] conexion establecida
+[2022-05-2723:20:50] [ INFO ] [Main:25] Tabla creada
+[2022-05-2723:20:50] [ INFO ] [Main:34] se insertaron todas las filas
+[2022-05-2723:20:50] [ INFO ] [Main:42] consulta realizada con exito
+[2022-05-2723:20:50] [ INFO ] [Main:50] borrado id = 2
+[2022-05-2723:20:50] [ INFO ] [Main:58] consulta 2 realizada con exito
+[2022-05-2723:20:50] [ INFO ] [Main:63] update a usuarios
+[2022-05-2723:20:50] [ INFO ] [Main:73] consulta 3 realizada con exito
+[2022-05-2723:21:24] [ INFO ] [Main:14] Driver h2 cargado
+[2022-05-2723:21:24] [ INFO ] [Main:19] conexion establecida
+[2022-05-2723:21:24] [ INFO ] [Main:25] Tabla creada
+[2022-05-2723:21:24] [ INFO ] [Main:34] se insertaron todas las filas
+[2022-05-2723:21:24] [ INFO ] [Main:42] consulta realizada con exito
+[2022-05-2723:21:24] [ INFO ] [Main:50] borrado id = 2
+[2022-05-2723:21:24] [ INFO ] [Main:58] consulta 2 realizada con exito
+[2022-05-2723:21:24] [ INFO ] [Main:63] update a usuarios
+[2022-05-2723:21:24] [ INFO ] [Main:73] consulta 3 realizada con exito
